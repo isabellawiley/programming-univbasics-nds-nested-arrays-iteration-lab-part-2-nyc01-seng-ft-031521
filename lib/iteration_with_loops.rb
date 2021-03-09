@@ -16,10 +16,7 @@ def find_min_in_nested_arrays(src)
     chilly_brr.push(low)
     row += 1
     
-    #(src[row]).sort
-    #low = src[row][0]
-    #chilly_brr.push(low)
-    #row += 1
+
   end
   
   chilly_brr
