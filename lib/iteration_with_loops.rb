@@ -6,9 +6,15 @@ def find_min_in_nested_arrays(src)
   
   row = 0 
   while row < src.length do
-    elem = 0 
+    elem = 1
+    low = src[row][0]
     while elem < src[row].length do
-      
+      if src[row][elem] < low
+        low = src[row][elem]
+      elem += 1 
+    end
+    chilly_brr.push(low)
+    row += 1
     
     #(src[row]).sort
     #low = src[row][0]
